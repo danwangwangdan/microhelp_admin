@@ -1,0 +1,32 @@
+<view class="container more">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="../../pics/me_photo.png" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class="userinfo-nickname">黄士明</text>
+      <text class="edit">网络中心  15974040709</text>
+    </view>
+  </view>
+
+  <view class="my">
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item">
+        <image src="../../pics/all.png" style="height:20px;weight:20px"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text bindtap="toAll">全部故障</text>
+      </view>
+    </view>
+
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item">
+        <image src="../../pics/solved.png" style="height:30px;width:30px"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text bindtap="toSolved">已解决的故障</text>
+      </view>
+    </view>
+
+  </view>
+</view>

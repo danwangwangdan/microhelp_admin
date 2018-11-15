@@ -1,0 +1,36 @@
+{
+  "pages": [
+      "pages/me/me",
+    "pages/login/login",
+    "pages/solve_suc/solve_suc",
+    "pages/solve/solve",
+    "pages/detail/detail",
+    "pages/home/home",
+    "pages/me/solved/solved"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9CC9BF",
+    "selectedColor": "#ED7F00",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pics/tab_home.png",
+        "selectedIconPath": "pics/tab_home_fill.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pics/tab_people.png",
+        "selectedIconPath": "pics/tab_people_fill.png"
+      }
+    ]
+  }
+}

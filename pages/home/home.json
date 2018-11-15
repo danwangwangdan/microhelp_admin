@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "i-cell-group": "../../plugins/iview/cell-group/index",
+    "i-cell": "../../plugins/iview/cell/index",
+    "i-icon": "../../plugins/iview/icon/index",
+    "i-row": "../../plugins/iview/row/index",
+    "i-col": "../../plugins/iview/col/index",
+    "i-tabs": "../../plugins/iview/tabs/index",
+    "i-tab": "../../plugins/iview/tab/index"
+  }
+}
