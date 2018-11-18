@@ -2,7 +2,7 @@
 <view>
   <i-tabs current="{{current}}" bindchange="handleChange">
     <i-tab key="tab1" title="待确认"></i-tab>
-    <i-tab key="tab2" title="待我解决"></i-tab>
+    <i-tab key="tab2" title="已确认"></i-tab>
   </i-tabs>
   <scroll-view class="centerView">
     <view style="margin-top:10px">

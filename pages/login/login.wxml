@@ -2,7 +2,7 @@
   <view class="centerView">
     <view>
       <text style="font-size:30px">欢迎登陆</text>
-      <text style="font-size:15px">Admin</text>
+      <text style="font-size:15px">admin</text>
     </view>
     <view class="divView">
       <view class="divLine"></view>
@@ -16,7 +16,7 @@
       <i-input title="密码:" type="password" placeholder="请输入密码" />
     </view>
     <view style='margin-top:35px'>
-      <button style='width: 60%;background-color: #2d8cf0;' type="primary" bindtap="toLogin">登录</button>
+      <i-button bind:click="toLogin" type="primary" shape="circle">登录</i-button>
     </view>
 
   </view>
